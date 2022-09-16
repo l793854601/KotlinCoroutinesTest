@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projects/Android/KotlinCoroutinesTest/basic/src/main/res/layout/activity_main.xml" value="0.24974358974358973" />
+        <entry key="..\:/Projects/Android/KotlinCoroutinesTest/eg/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Projects/Android/KotlinCoroutinesTest/scope/src/main/res/layout/activity_main.xml" value="0.16614583333333333" />
         <entry key="basic/src/main/res/layout/activity_main.xml" value="0.32395833333333335" />
       </map>
     </option>

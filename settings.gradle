@@ -15,3 +15,5 @@ dependencyResolutionManagement {
 rootProject.name = "KotlinCoroutinesTest"
 include ':app'
 include ':basic'
+include ':scope'
+include ':eg'

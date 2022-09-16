@@ -12,6 +12,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/basic" />
+            <option value="$PROJECT_DIR$/eg" />
+            <option value="$PROJECT_DIR$/scope" />
           </set>
         </option>
       </GradleProjectSettings>
