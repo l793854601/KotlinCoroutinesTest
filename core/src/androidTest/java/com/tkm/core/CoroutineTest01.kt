@@ -5,7 +5,7 @@ import org.junit.Test
 import kotlin.system.measureTimeMillis
 
 class CoroutineTest01 {
-    //  runBlocking：运行一个新的协程，并阻塞当前线程，直到该协程执行完毕（前提是子协程必须继承父协程的上下文）
+    //  runBlocking：运行一个新的协程，并阻塞当前线程，直到该协程执行完毕
     //  不应该在协程中使用此方法，此方法一般用于测试
     @Test
     fun testCoroutineBuilder() = runBlocking {
@@ -155,7 +155,7 @@ class CoroutineTest01 {
 
     @Test
     fun testCoroutineScopeBuilder() = runBlocking {
-        //  coroutineScope：挂起函数，不会阻塞当前线程（区别于runBLocking，runBlocking会阻塞当前线程）
+        //  coroutineScope：挂起函数，不会阻塞当前线程（区别于runBlocking，runBlocking会阻塞当前线程）
         //  coroutineScope会等待内部协程都执行完毕，才会结束
         //  coroutineScope内部的协程如果有一个失败了，则其他兄弟协程也会被取消
         coroutineScope {
