@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/core" />
             <option value="$PROJECT_DIR$/coroutinecontext" />
             <option value="$PROJECT_DIR$/eg" />
+            <option value="$PROJECT_DIR$/flow" />
             <option value="$PROJECT_DIR$/scope" />
           </set>
         </option>
